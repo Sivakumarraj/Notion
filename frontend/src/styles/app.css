@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: #202124;
+  background: #f6f6f5;
+}
+
+body {
+  margin: 0;
+}
+
+.dashboard-page,
+.document-page {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  border-right: 1px solid #e9e9e7;
+  padding: 1rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card {
+  margin: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.title-input {
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.editor {
+  width: calc(100% - 4rem);
+  margin: 2rem;
+  min-height: 70vh;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #dededb;
+}
+
+.login-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
